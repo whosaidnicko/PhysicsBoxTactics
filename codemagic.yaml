@@ -8,14 +8,14 @@ workflows:
     environment:
       ios_signing:
         provisioning_profiles:
-         - profile: boxPhysicsProfile
+         - profile: profilewNewPhysics
         certificates:
          - certificate: physicsBoxCert
       vars:
-        BUNDLE_ID: "bsx.physixs.lerasg"
+        BUNDLE_ID: "ph.sege.asg.sve"
         XCODE_PROJECT: "PhysicsBoxTactics.xcodeproj"
         XCODE_SCHEME: "PhysicsBoxTactics"
-        APP_STORE_APPLE_ID: 6738349709
+        APP_STORE_APPLE_ID: 6738384311
       xcode: 16.0
 
     scripts:
